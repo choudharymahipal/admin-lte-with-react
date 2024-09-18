@@ -15,10 +15,10 @@ function AppMenu() {
                     {/* Sidebar user panel (optional) */}
                     <div className="user-panel mt-3 pb-3 mb-3 d-flex">
                         <div className="image">
-                            <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
+                            <img src="dist/img/user.jpg" className="img-circle elevation-2" alt="User Image" />
                         </div>
                         <div className="info">
-                            <a href="#" className="d-block">Alexander Pierce</a>
+                            <a href="#" className="d-block">Mahipal Choudhary</a>
                         </div>
                     </div>
                     {/* Sidebar Menu */}
@@ -27,36 +27,16 @@ function AppMenu() {
                             {/* Add icons to the links using the .nav-icon class
            with font-awesome or any other icon font library */}
                             <li className="nav-item has-treeview menu-open">
-                                <a href="#" className="nav-link active">
+                                <a href="/" className="nav-link">
                                     <i className="nav-icon fas fa-tachometer-alt" />
                                     <p>
                                         Dashboard
-                                        <i className="right fas fa-angle-left" />
                                     </p>
                                 </a>
-                                <ul className="nav nav-treeview">
-                                    <li className="nav-item">
-                                        <a href="./index.html" className="nav-link active">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Dashboard v1</p>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="./index2.html" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Dashboard v2</p>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a href="./index3.html" className="nav-link">
-                                            <i className="far fa-circle nav-icon" />
-                                            <p>Dashboard v3</p>
-                                        </a>
-                                    </li>
-                                </ul>
+                                
                             </li>
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a href="/Widgets" className="nav-link">
                                     <i className="nav-icon fas fa-th" />
                                     <p>
                                         Widgets
@@ -122,19 +102,19 @@ function AppMenu() {
                                 </a>
                                 <ul className="nav nav-treeview">
                                     <li className="nav-item">
-                                        <a href="pages/charts/chartjs.html" className="nav-link">
+                                        <a href="/Chart/ChartJs" className="nav-link">
                                             <i className="far fa-circle nav-icon" />
                                             <p>ChartJS</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="pages/charts/flot.html" className="nav-link">
+                                        <a href="/Chart/Flot" className="nav-link">
                                             <i className="far fa-circle nav-icon" />
                                             <p>Flot</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="pages/charts/inline.html" className="nav-link">
+                                        <a href="/Charts/Inline" className="nav-link">
                                             <i className="far fa-circle nav-icon" />
                                             <p>Inline</p>
                                         </a>
