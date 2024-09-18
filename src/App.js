@@ -18,10 +18,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<AppDashboard />} />
-          <Route path="/Widgets" element={<AppWidgets />} />
-          <Route path="/Chart/ChartJs" element={<AppChartJs />} />
-          <Route path="/Chart/Flot" element={<AppFlot />} />
-          <Route path="/Chart/InLine" element={<AppInline />} />
+          <Route path="Widgets" element={<AppWidgets />} />
+          <Route path="Chart/ChartJs" element={<AppChartJs />} />
+          <Route path="Chart/Flot" element={<AppFlot />} />
+          <Route path="Chart/InLine" element={<AppInline />} />
         </Routes>
       </BrowserRouter>
       <AppFooter />
